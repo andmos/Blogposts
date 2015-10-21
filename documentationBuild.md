@@ -1,6 +1,6 @@
 Automated build of AsciiDoc with Docker and nginx
 ===
-One of the teams at work is piloting the usage of [AsciiDoc](http://www.methods.co.nz/asciidoc/) for documentation of their product. AsciiDoc is a markup-format just like Gruber's [Markdown](http://daringfireball.net/projects/markdown/), but is more advanced and offers more possibilities. Since the documentation is located alongside the source code in Git (as it should be!) I created a simple build step for easy build and deploy of the documentation with my favorite tool, [Docker](https://www.docker.com/) with public images directly from the [Docker Hub](https://hub.docker.com/). 
+One of the teams at work is piloting the usage of [AsciiDoc](http://www.methods.co.nz/asciidoc/) for documentation of their product. AsciiDoc is a markup-format just like Gruber's [Markdown](http://daringfireball.net/projects/markdown/), but is more advanced and offers more possibilities. Since the documentation is located alongside the source code in Git (as it should be!) I created a simple build step for easy build and deploy of the documentation with my favorite tool, [Docker](https://www.docker.com/) with public images directly from the [Docker Hub](https://hub.docker.com/).
 
 These steps gets triggered on each build:
 
