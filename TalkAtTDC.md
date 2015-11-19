@@ -16,7 +16,7 @@ My session will be released by the TDC people shorty, until then - here are the 
 
 EDIT: Here is also the talk (in norwegian):
 
-<iframe src="https://player.vimeo.com/video/144964559" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/144964559" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/144964559">Andreas Mosti - ENKEL RESTFULL TJENESTE MED .NET, VAGRANT OG DOCKER</a> from <a href="https://vimeo.com/trondheimdc">TrondheimDC</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 
 After the talk I walked back stage and helped Scott Hanselman out with his upcoming [ASP.NET 5](http://www.asp.net/vnext) talk, where he showed me the future of open source Microsoft, running on all platforms without anything installed thanks to the [CoreCLR](https://github.com/dotnet/coreclr). He told me he planned on asking some random people in the audience for a Mac to show how easy it was to run a sample ASP.NET 5 app with the CoreCLR, so I placed my co-worker [@hjerpbakk](http://hjerpbakk.com/) on the front raw. Sure enough, he had to take the stage with his Mac.
