@@ -28,7 +28,7 @@ We ended up creating a `tools\` folder with a `build.csx` and a `common.csx` fil
 
 This flow cleans, pulls down dependencies, compiles, runs unit and integrationtests, packages NuGet or Chocolatey packages and deploys to ProGet and Octopus Deploy. These steps are exactly alike localy and on the build server, just a command line call to build.bat. If ScriptCS is not installed on the system, the bat-file will do it for you. 
 
-### Conclution
+### conclusion
 
 It took some time, but after a while we had a build system we were very satisfied with. The shared code is constantly changing as teams finds new needs. ScriptCS has been a success and have removed a lot of the magic from the build process. The teams have taken a lot more ownership over building than they had before. By pushing logic from the build server and down to the build system itself, everything works perfectly with Team City, TFS2015 and Jenkins, just as it should be. 
 
