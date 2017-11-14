@@ -5,14 +5,13 @@ Using Docker for executing ad-hoc scripts and cron-like jobs
 
 People use Docker to package applications and infrastructure dependencies for easy shipment - and it shines bright while doing it.
 A less talked about usecase for Docker is executing simple ad-hoc scripts and cron-type jobs, like nightly jobs on a build
-server. Since Docker isolates processes, we can be much more free to experiment with different languages and runtimes not only in
-our applications, but also our scripts without having to think about provisioning software to the target servers. As developers we should be able to use the language we want and abstract it away. The output is what matters.
+server. Since Docker isolates processes, we can be much more free to experiment with different languages and runtimes not only in our applications, but also our scripts without having to think about provisioning software to the target servers. As developers we should be able to use the language we want and abstract it away. The output is what matters.
 
 
 ### The Case
 
-First, let's look at the case. As readers of my blog now, I work with tools crossing the line between the Linux and Windows
-environments. That's why we like Ansible. For provisioning Windows servers we use the `win_chocolatey` [module](http://docs.ansible.com/ansible/latest/win_chocolatey_module.html) Ansible provides.
+First, let's look at the case. As readers of my blog know, I work with tools crossing the line between the Linux and Windows
+environments. That's my team like Ansible. For provisioning Windows servers we use the `win_chocolatey` [module](http://docs.ansible.com/ansible/latest/win_chocolatey_module.html) Ansible provides.
 We pull all the Chocolatey packages directly from the central Chocolatey repository. To be able to support offline provisioning of servers (as well as letting me sleep good at night knowing we have a backup) I need to script some syncing of the Chocolatey packages we use to our
 local ProGet server. Sounds easy, just write up some PowerShell and call it a day right?
 Nah. Too boring. Let's see if we can do something cool.
