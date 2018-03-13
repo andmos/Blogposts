@@ -22,3 +22,15 @@ actually no easy way to do this, but thankfully the Atom ecosystem also got this
 ```
 
 And we are good to go.
+
+Update: As of version `1.24.1` of Atom we don't need any extension for setting language-pack to basic file-endings.
+This can be done with:
+
+```
+"*":
+  core:
+    customFileTypes:
+      "source.ansible": [
+        "inventory"
+      ]
+```
