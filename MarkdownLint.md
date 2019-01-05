@@ -5,7 +5,7 @@ Markdown is great. It's easy and flexible, and provides a good markup language e
 
 I like to think of markup languages as code, and most code deserves a good style guide. [Markdownlint](https://github.com/DavidAnson/markdownlint) is a good alternative.
 
-`markdownlint` provides [a good set of standard rules](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md) when writing markdown, like:
+`markdownlint` provides [a nice set of standard rules](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md) when writing markdown, like:
 
 * Heading levels should only increment by one level at a time
 * Lists should be surrounded by blank lines
