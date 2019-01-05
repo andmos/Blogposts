@@ -29,7 +29,7 @@ vs.
 
 Another smart rule is ensuring language description when writing code blocks.
 
-If some rules don't fit your style or project, `markdownlint` they can be overrided with a `.markdownlint.json` file:
+If some rules don't fit your style or project, they can be overrided with a `.markdownlint.json` file:
 
 ```markdown
 {
