@@ -109,6 +109,13 @@ Not much code needed here neither:
 
 To link the function ta a GBFS system, the GBFS discovery URL must be exposed to the function via environment variable in the `stack` file.
 
+When deployed, the `bikeshare-function` can be invoked:
+
+```shell
+$ curl -d "skansen" localhost:8080/function/bikeshare-function
+{"Name":"Skansen","BikesAvailable":19,"LocksAvailable":2}
+```
+
 The next function is the Slack bot itself. The bot will trigger on mentions and call the `bikeshare-function` with a bikeshare station name. For creating Slack apps, [see the documentation](https://api.slack.com/slack-apps).
 
 As expected, under 100 lines of code here too:
@@ -134,12 +141,6 @@ The final `stack` file:
 
 <script src="https://gist.github.com/andmos/b7037ab2266393737db10097366bc20f.js"></script>
 
-When deployed, the `bikeshare-function` can be invoked:
-
-```shell
-$ curl -d "skansen" localhost:8080/function/bikeshare-function
-{"Name":"Skansen","BikesAvailable":19,"LocksAvailable":2}
-```
 
 To initialize the Slack bot:
 ```shell
