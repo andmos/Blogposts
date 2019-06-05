@@ -101,7 +101,7 @@ $ faas-cli push -f gbfs-systems-function.yml
 
 ## Building a GBFS powered Slack bot
 
-So that example function was rather easy. Let's make something more useful: A Slack bot for showing available bikes and locks at bikeshare stations. Right off the bat this seems like a nice use case for multiple functions, since a function should optimally do only one thing. So for the bot we need a `bikeshare-function` that takes the name of a bikeshare systems station as input, and return the number of available bikes and locks for this station as output.
+So that example function was rather simple. Let's make something more useful: A Slack bot for showing available bikes and locks at bikeshare stations. Right off the bat this seems like a nice use case for multiple functions, since a function should optimally do only one thing. So for the bot we need a `bikeshare-function` that takes the name of a bikeshare systems station as input, and return the number of available bikes and locks for this station as output.
 
 Not much code needed here neither:
 
