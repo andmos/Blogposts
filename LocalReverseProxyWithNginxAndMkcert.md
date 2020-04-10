@@ -50,4 +50,4 @@ Navigating to `https://localhost:5000/` reveals a nice HTTPS symbol:
 
 ## Note
 
-Unless `nginx` is used reverse-proxy, this solution will not be _excactly_ on parity with staging or production, but the mechanisms and practices should be similar. As a rule of thumb, the Twelve-Factor app [talks about the importance of  dev/prod parity](https://12factor.net/dev-prod-parity).
+Unless `nginx` is used as reverse-proxy in the live environment, this solution will not be _excactly_ on parity with staging or production, but the mechanisms and practices should be similar. As a rule of thumb, the Twelve-Factor app [talks about the importance of  dev/prod parity](https://12factor.net/dev-prod-parity).
