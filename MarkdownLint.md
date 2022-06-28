@@ -45,22 +45,6 @@ The easiest way to start using `markdownlint` is to install the extension for [V
 
 For my [Coffee recipes](https://github.com/andmos/Coffee) I use a simple container with Github Actions:
 
-```yaml
-name: Verify Documents
-on:
-  pull_request:
-  workflow_dispatch:
-jobs:
-  Markdownlint:
-    name: Run Markdownlint
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-
-      - name: Verify Markdown structure
-        run: |
-          docker run --rm -v $(pwd):/workdir ghcr.io/andmos/markdownlint-cli:master "*.md"
-```
+<script src="https://gist.github.com/andmos/a32940491b540ff5a1bf487ac0b26046.js"></script>
 
 If any rules are broken, it breaks the build.
