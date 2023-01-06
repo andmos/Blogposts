@@ -51,7 +51,7 @@ The overview itself is much cleaner with less stuff. The checks are still there,
 
 The plan itself shows like this:
 
-![](https://user-images.githubusercontent.com/1283556/210859778-2a7908d1-0240-4c78-8d8e-e8810b4a43cf.png)
+![](https://user-images.githubusercontent.com/1283556/210953172-b2de1468-b7c1-4b51-961c-ca3814c5dbd2.png)
 
 The observant Terraform author will notice something here. The symbol for "update in place" should be `~`, not `!`. This is a little trick we did to get the orange color for in-place changes, not just additions and destroyed resources.
 
