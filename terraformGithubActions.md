@@ -3,7 +3,7 @@ Github Actions and Terraform, revisited
 
 This week we finally got to do some Terraform work again on a new project.
 
-The setup is is simple, we have some Azure resources we want to create, so there is no way around Infrastructure as Code and, by our choice, the battle-proven Terraform from Hashicorp.
+The setup is simple, we have some Azure resources we want to create, so there is no way around Infrastructure as Code and, by our choice, the battle-proven Terraform from Hashicorp.
 
 Since the code lives up on Github, we want to automate the steps involved with the Terraform code and work with a standard pull request workflow.
 This includes:
