@@ -3,7 +3,7 @@ Github Actions and Terraform, revisited
 
 This week we finally got to do some Terraform work again on a new project.
 
-The setup is is simple, we have some Azure resources we want to create, so there is no way around Infrastructure as Code and, by our choice, the battle-proven Terraform from Hashicorp.
+The setup is simple, we have some Azure resources we want to create, so there is no way around Infrastructure as Code and, by our choice, the battle-proven Terraform from Hashicorp.
 
 Since the code lives up on Github, we want to automate the steps involved with the Terraform code and work with a standard pull request workflow.
 This includes:
@@ -51,7 +51,7 @@ The overview itself is much cleaner with less stuff. The checks are still there,
 
 The plan itself shows like this:
 
-![](https://user-images.githubusercontent.com/1283556/210953172-b2de1468-b7c1-4b51-961c-ca3814c5dbd2.png)
+![](https://user-images.githubusercontent.com/1283556/210972701-f4ad59ea-6a1c-4161-aa9f-4c1dc0b4e19b.png)
 
 The observant Terraform author will notice something here. The symbol for "update in place" should be `~`, not `!`. This is a little trick we did to get the orange color for in-place changes, not just additions and destroyed resources.
 
